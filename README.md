@@ -4,7 +4,7 @@
 
 To write a Python program using OpenCV to apply different smoothing filters (Averaging, Weighted Averaging, Gaussian, Median) and sharpening filters (Laplacian Kernel and Laplacian Operator) for image enhancement, and display each result separately along with the original image for comparison.
 
----
+
 
 ## The program performs the following operations:
 
@@ -17,7 +17,7 @@ To write a Python program using OpenCV to apply different smoothing filters (Ave
 - Apply Laplacian operator  
 - Display all outputs for comparison  
 
----
+
 
 ##  Software Used
 
@@ -27,7 +27,6 @@ To write a Python program using OpenCV to apply different smoothing filters (Ave
 - NumPy  
 - Matplotlib  
 
----
 
 ##  Algorithm
 
@@ -61,14 +60,13 @@ Convert image to grayscale and apply Laplacian Operator using `cv2.Laplacian()`.
 ### Step 10:
 Display all filtered images using a grid layout for comparison.
 
----
 
 ##  Developed By
 
 - **Name:** MOPURI SARADEEPIKA 
 - **Register No:** 212224040201
 
-- ```
+```
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -140,6 +138,7 @@ plt.imshow(laplacian)
 plt.title("Laplacian Operator")
 plt.axis("off")
 plt.show()
+```
 
   
 
